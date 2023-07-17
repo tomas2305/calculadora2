@@ -11,15 +11,15 @@ import Calculadora from "./components/Calculadora";
 function App() {
   const darkTheme = createTheme({
     palette: {
-      mode: "dark",
-    },
+      mode: "dark"
+    }
   });
 
   return (
     <ThemeProvider theme={darkTheme}>
-      <Container className="App" >
-        <CssBaseline />
-        <Typography variant="h1" align="center" marginY={7} sx={{userSelect: 'none'}}>
+      <CssBaseline />
+      <Container className="App" sx={{ userSelect: "none" }}>
+        <Typography variant="h1" align="center" marginY={7}>
           Calculadora
         </Typography>
         <Calculadora />

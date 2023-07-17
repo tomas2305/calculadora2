@@ -8,7 +8,7 @@ export default function Boton(props) {
       size="large"
       type="button"
       variant="contained"
-      sx={{ boxShadow: "-6px 1px white", height: "64px", marginLeft: 1 }}
+      sx={{ boxShadow: "-6px 1px #f7a1a1", height: "64px"}}
       onClick={props.manejarBotonClick()}
     >
       {props.children}
